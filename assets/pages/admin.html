@@ -1,213 +1,226 @@
 <!DOCTYPE html>
 <html lang="zxx">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Админская панель</title>
+    <title>GameForce</title>
     <link rel="stylesheet" href="../css/style.css">
     <link rel="shortcut icon" href="../image/logo/logo.svg" type="image/x-icon">
 </head>
+
 <body>
     <!-- Шапка -->
     <header>
         <div class="cont">
-           <div class="header">
-            <div class="logo"><a href="../../index.html"><img src="../image/logo/logo.svg" alt="logo"></a></div>
-            <div class="nav">
-                <nav>
-                    <a href="../../index.html">Главная</a>
-                    <a href="#">Каталог</a>
-                    <a href="#">Поддержка</a>
-                </nav>
-            </div>
-            <div class="pay_button">
-                <a href="#">Пополнить</a>
-            </div>
-            <div class="buttons_header">
-                <a href="user.html"><img src="../image/first/user.svg" alt=""></a>
-                <a href="busket.html"><img src="../image/first/busket.svg" alt=""></a>
-            </div>
-           </div> 
-        </div>
-    </header><!-- <input type="checkbox" name="" id="burger">
-                <label for="burger"></label>
-                <div class="menu_nav">
-                    <div class="burger">
-                        <nav>
-                            <a href="../../index.html">Главная</a>
-                            <a href="#katalog">Каталог</a>
-                            <a href="#support">Контакты</a>
-                        </nav>
-                        <div class="buttons">
-                            <div class="user">
-                                <a href="admin.html"><img src="../image/other/user1.svg" alt="user icon"></a>
-                            </div>
-                            <div class="busket">
-                                <a href="#"><img src="../image/other/basket1.svg" alt="busket icon"></a>
-                            </div>
-                        </div>
-                        <div class="buttons2">
-                            <div class="button2">
-                                <label for="text1">Пользователи</label>
-                            </div>
-                            <div class="button2">
-                                <label for="text2">Товары</label>
-                            </div>
-                            <div class="button2">
-                                <a href="add.html">Добавить товар</a>
+            <div class="header">
+                <div class="logo"><a href="../../index.html"><img src="../image/logo/logo.svg" alt="logo"></a></div>
+                <div class="nav">
+                    <nav>
+                        <a href="../../index.html">Главная</a>
+                        <a href="catalog.html">Каталог</a>
+                        <a href="contacts.html">Поддержка</a>
+                    </nav>
+                </div>
+                <div class="buttons_header">
+                    <a href="signin.html"><img src="../image/first/user.svg" alt=""></a>
+                    <a href="busket.html"><img src="../image/first/busket.svg" alt=""></a>
+                </div>
+                <div class="burger1">
+                    <input type="checkbox" name="" id="burger">
+                    <label for="burger"></label>
+                    <div class="menu_nav">
+                        <div class="burger">
+                            <nav>
+                                <a href="index.html">Главная</a>
+                                <a href="../pages/catalog.html">Каталог</a>
+                                <a href="../pages/contacts.html">Поддержка</a>
+                            </nav>
+                            <div class="buttons_header">
+                                <a href="../pages/signin.html"><img src="../image/first/user.svg" alt=""></a>
+                                <a href="../pages/busket.html"><img src="../image/first/busket.svg" alt=""></a>
                             </div>
                         </div>
                     </div>
-                </div> -->
+
+                </div>
+            </div>
+        </div>
+    </header>
     <div class="fakeheader"></div>
     <!-- Шапка конец -->
 
     <!-- Админская панель -->
 
-    <div class="block5 cont2">
-        <div class="chtorka">
-            <div class="chtorka_bl">
-                <div class="user1">
-                    <img src="../image/user/user.svg" alt="">
-                    <div class="info1">
-                        <p>Пользователь</p>
+    <div class="block5">
+        
+        <div class="cont2" style="display: flex;">
+            <div class="burger2">
+                <input type="checkbox" name="" id="admin">
+                <label for="admin"></label>
+                <div class="menu_nav1">
+                    <div class="admin_burger">
+                        <div class="buttons2">
+                            <div class="button2">
+                                <img src="../image/admin/user-1.svg" alt="">
+                                <label for="text1">Пользователи</label>
+                            </div>
+                            <div class="button2">
+                                <img src="../image/admin/pinpaper-filled.svg" alt="">
+                                <label for="text2">Товары</label>
+                            </div>
+                            <div class="button2">
+                                <img src="../image/admin/pinpaper-plus.svg" alt="">
+                                <a href="add.html">Добавить товар</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="chtorka">
+                <div class="chtorka_bl">
+                    <div class="user1">
+                        <img src="../image/user/user.svg" alt="">
+                        <div class="info1">
+                            <p>Пользователь</p>
+                            <p>Почта</p>
+                        </div>
+                    </div>
+                    <div class="buttons2">
+                        <div class="button2">
+                            <img src="../image/admin/user-1.svg" alt="">
+                            <label for="text1">Пользователи</label>
+                        </div>
+                        <div class="button2">
+                            <img src="../image/admin/pinpaper-filled.svg" alt="">
+                            <label for="text2">Товары</label>
+                        </div>
+                        <div class="button2">
+                            <img src="../image/admin/pinpaper-plus.svg" alt="">
+                            <a href="add.html">Добавить товар</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <input type="radio" class="text1" name="text" value="text1" id="text1" checked />
+            <input type="radio" class="text2" name="text" value="text2" id="text2" />
+            <div class="panel">
+                <h2>Пользователи</h2>
+                <div class="users">
+                    <div class="user2">
+                        <p><span>Id</span></p>
+                        <p>Никнейм</p>
                         <p>Почта</p>
+                        <p>Дата регистрации</p>
+                        <a href="#">Заблокировать</a>
+                    </div>
+                    <div class="user2">
+                        <p><span>Id</span></p>
+                        <p>Никнейм</p>
+                        <p>Почта</p>
+                        <p>Дата регистрации</p>
+                        <a href="#">Заблокировать</a>
+                    </div>
+                    <div class="user2">
+                        <p><span>Id</span></p>
+                        <p>Никнейм</p>
+                        <p>Почта</p>
+                        <p>Дата регистрации</p>
+                        <a href="#">Заблокировать</a>
+                    </div>
+                    <div class="user2">
+                        <p><span>Id</span></p>
+                        <p>Никнейм</p>
+                        <p>Почта</p>
+                        <p>Дата регистрации</p>
+                        <a href="#">Заблокировать</a>
+                    </div>
+                    <div class="user2">
+                        <p><span>Id</span></p>
+                        <p>Никнейм</p>
+                        <p>Почта</p>
+                        <p>Дата регистрации</p>
+                        <a href="#">Заблокировать</a>
+                    </div>
+                    <div class="user2">
+                        <p><span>Id</span></p>
+                        <p>Никнейм</p>
+                        <p>Почта</p>
+                        <p>Дата регистрации</p>
+                        <a href="#">Заблокировать</a>
+                    </div>
+                    <div class="user2">
+                        <p><span>Id</span></p>
+                        <p>Никнейм</p>
+                        <p>Почта</p>
+                        <p>Дата регистрации</p>
+                        <a href="#">Заблокировать</a>
+                    </div>
+                    <div class="user2">
+                        <p><span>Id</span></p>
+                        <p>Никнейм</p>
+                        <p>Почта</p>
+                        <p>Дата регистрации</p>
+                        <a href="#">Заблокировать</a>
                     </div>
                 </div>
-                <div class="buttons2">
-                    <div class="button2">
-                        <img src="../image/admin/user-1.svg" alt="">
-                        <label for="text1">Пользователи</label>
-                    </div>
-                    <div class="button2">
-                        <img src="../image/admin/pinpaper-filled.svg" alt="">
-                        <label for="text2">Товары</label>
-                    </div>
-                    <div class="button2">
-                        <img src="../image/admin/user-question.svg" alt="">
-                        <label for="text3">Вопросы</label>
-                    </div>
-                    <div class="button2">
-                        <img src="../image/admin/pinpaper-plus.svg" alt="">
-                        <a href="add.html">Добавить товар</a>
+                <div class="sliderrrs">
+                    <div class="slider">
+                        <img src="../image/admin/chevron-small-left.svg" alt="arrow left">
+                        <h3>1</h3>
+                        <p>2</p>
+                        <p>3</p>
+                        <p>...</p>
+                        <p>20</p>
+                        <img src="../image/admin/chevron-small-right.svg" alt="arrow right">
                     </div>
                 </div>
             </div>
-        </div>
-        <input type="radio" class="text1" name="text" value="text1" id="text1" checked />
-        <input type="radio" class="text2" name="text" value="text2" id="text2"  />
-        <div class="panel">
-            <h2>Пользователи</h2>
-            <div class="users">
-                <div class="user2">
-                    <p><span>Id</span></p>
-                    <p>Никнейм</p>
-                    <p>Почта</p>
-                    <p>Дата регистрации</p>
-                    <a href="#">Заблокировать</a>
-                </div>
-                <div class="user2">
-                    <p><span>Id</span></p>
-                    <p>Никнейм</p>
-                    <p>Почта</p>
-                    <p>Дата регистрации</p>
-                    <a href="#">Заблокировать</a>
-                </div>
-                <div class="user2">
-                    <p><span>Id</span></p>
-                    <p>Никнейм</p>
-                    <p>Почта</p>
-                    <p>Дата регистрации</p>
-                    <a href="#">Заблокировать</a>
-                </div>
-                <div class="user2">
-                    <p><span>Id</span></p>
-                    <p>Никнейм</p>
-                    <p>Почта</p>
-                    <p>Дата регистрации</p>
-                    <a href="#">Заблокировать</a>
-                </div>
-                <div class="user2">
-                    <p><span>Id</span></p>
-                    <p>Никнейм</p>
-                    <p>Почта</p>
-                    <p>Дата регистрации</p>
-                    <a href="#">Заблокировать</a>
-                </div>
-                <div class="user2">
-                    <p><span>Id</span></p>
-                    <p>Никнейм</p>
-                    <p>Почта</p>
-                    <p>Дата регистрации</p>
-                    <a href="#">Заблокировать</a>
-                </div>
-                <div class="user2">
-                    <p><span>Id</span></p>
-                    <p>Никнейм</p>
-                    <p>Почта</p>
-                    <p>Дата регистрации</p>
-                    <a href="#">Заблокировать</a>
-                </div>
-                <div class="user2">
-                    <p><span>Id</span></p>
-                    <p>Никнейм</p>
-                    <p>Почта</p>
-                    <p>Дата регистрации</p>
-                    <a href="#">Заблокировать</a>
-                </div>
-            </div>
-            <div class="sliders">
-                <div class="slider">
-                    <img src="../image/admin/chevron-small-left.svg" alt="arrow left">
-                    <h3>1</h3>
-                    <p>2</p>
-                    <p>3</p>
-                    <p>...</p>
-                    <p>20</p>
-                    <img src="../image/admin/chevron-small-right.svg" alt="arrow right">
-                </div>
-            </div>
-        </div>
-        <div class="tovar">
-            <h2>Товары</h2>
-            <div class="osarts">
-                <div class="osart">
-                    <div class="osartt">
-                        <img src="../image/tovar/tovar.png" alt="tovar icon">
-                        <div class="hoh">
-                            <h3>Фанера березовая <br> 10м x 2,5м</h3>
-                            <p>Цена: 450₽</p> 
+            <div class="tovar">
+                <h2>Товары</h2>
+                <div class="osarts">
+                    <div class="osart">
+                        <div class="osartt">
+                            <img src="../image/catalog/image1.png" alt="tovar icon">
+                            <div class="hoh">
+                                <h3>Don't Starve Together</h3>
+                                <p>Цена: 499₽</p>
+                                <p>Скидочкая цена: 349₽</p>
+                            </div>
+                        </div>
+                        <div class="buttons3">
+                            <a href="redactr.html">Редактирование</a>
+                            <a href="del.html">Удалить</a>
                         </div>
                     </div>
-                    <div class="buttons3">
-                        <a href="redact.html">Редактирование</a>
-                        <a href="del.html">Удалить</a>
-                    </div>
-                </div>
-                <div class="osart">
-                    <div class="osartt">
-                        <img src="../image/tovar/tovar.png" alt="tovar icon">
-                        <div class="hoh">
-                            <h3>Фанера березовая <br> 10м x 2,5м</h3>
-                            <p>Цена: 450₽</p> 
+                    <div class="osart">
+                        <div class="osartt">
+                            <img src="../image/catalog/image2.png" alt="tovar icon">
+                            <div class="hoh">
+                                <h3>Castle crashers</h3>
+                                <p>Цена: 249₽</p>
+                                <p>Скидочкая цена: 199₽</p>
+                            </div>
+                        </div>
+                        <div class="buttons3">
+                            <a href="redactr.html">Редактирование</a>
+                            <a href="del.html">Удалить</a>
                         </div>
                     </div>
-                    <div class="buttons3">
-                        <a href="redact.html">Редактирование</a>
-                        <a href="del.html">Удалить</a>
-                    </div>
-                </div>
-                <div class="osart">
-                    <div class="osartt">
-                        <img src="../image/tovar/tovar.png" alt="tovar icon">
-                        <div class="hoh">
-                            <h3>Фанера березовая <br> 10м x 2,5м</h3>
-                            <p>Цена: 450₽</p> 
+                    <div class="osart">
+                        <div class="osartt">
+                            <img src="../image/catalog/image3.png" alt="tovar icon">
+                            <div class="hoh">
+                                <h3>Metal Gear Rising Revengens</h3>
+                                <p>Цена: 999₽</p>
+                                <p>Скидочкая цена: 499₽</p>
+                            </div>
                         </div>
-                    </div>
-                    <div class="buttons3">
-                        <a href="redact.html">Редактирование</a>
-                        <a href="del.html">Удалить</a>
+                        <div class="buttons3">
+                            <a href="redactr.html">Редактирование</a>
+                            <a href="del.html">Удалить</a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -216,4 +229,5 @@
 
     <!-- Админская панель конец -->
 </body>
+
 </html>
